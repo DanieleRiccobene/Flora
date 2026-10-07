@@ -1,0 +1,15 @@
+Verifica Flora v3 Sicilia
+
+Python 3.12, TensorFlow CPU 2.19.1, Keras 3.15.1.
+Checklist FlorItaly completa verificata; training e metadati PlantCLEF simulati su fixture sintetiche.
+CSV reale, training completo, Google Drive e GPU Colab non disponibili qui.
+
+PASS real FlorItaly snapshot, 2916 species-level targets, Unicode, hybrids, synonyms and ambiguous-name exclusions
+PASS chunked CSV audit, alias merging, independent-observation counting and explicit coverage gaps
+PASS v3 notebook schema and all code cells compile
+PASS memory-light baseline targets, disk-backed KD rows and deterministic batch resume
+PASS streaming validation and image/observation test metrics match dense reference
+PASS baseline/KD gradient updates, checkpoint snapshots and restartable disk-backed teacher cache
+PASS ornamental scope includes additional dataset species without asserting regional presence
+PASS end-to-end extended audit cell, saved audit reuse, explicit coverage/provenance and no-download default
+FINAL SICILIA REVISION ALL CHECKS PASSED

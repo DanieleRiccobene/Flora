@@ -1,0 +1,12 @@
+{
+  "source_url": "https://raw.githubusercontent.com/gibedini/floritaly/6c4c7b08dc167a943907b2249b0a6b9684096f1d/data-raw/CKL_27_04_2023.xlsx",
+  "snapshot_date": "2023-04-27",
+  "reference_sha256": "373c74e489b55868796151a8da1cc6a752c8bdb08ec6a0ed167a14ccec44feb8",
+  "include_casual": true,
+  "selected_regional_taxa": 3438,
+  "species_level_targets": 2916,
+  "unparsed_regional_taxa": 5,
+  "ambiguous_names": 543,
+  "name_matching_scope": "regional",
+  "scope": "vascular plants recorded as present in SIC; not all cultivated/ornamental species"
+}
