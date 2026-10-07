@@ -1,0 +1,22 @@
+Flora v2 — verifica locale
+
+Python 3.12; TensorFlow CPU 2.19.1; Keras 3.15.1.
+Fixture sintetiche; nessun training PlantCLEF completo eseguito.
+Drive e GPU Colab non verificati qui. Architetture testate con pesi casuali.
+
+PASS notebook schema and all Python cells compile
+PASS deterministic observation split, missing IDs rejected
+PASS image download URL fallback, archive integrity and local cache restoration
+PASS equal species draws, deterministic augmentation and batch cursor
+PASS interrupted training equals uninterrupted: model, optimizer/schedule, sampler cursor
+PASS completed-stage no-op and corrupted-snapshot fallback
+PASS logits cache reuse and knowledge-distillation training
+PASS MobileNetV3 forward/backprop with frozen batch normalization
+PASS TFLite fp32 bytes 3704400
+PASS TFLite fp16 bytes 1879424
+PASS TFLite int8 bytes 1088352
+PASS two-stage pipeline and completed-model fingerprint stability
+PASS model selection, final image/observation/organ reports and export cell
+PASS distillation rejects teacher without validation gain
+PASS EfficientNetB0 and MobileNetV3 at 224 pixels
+FINAL REVISION ALL CHECKS PASSED
